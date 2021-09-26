@@ -1,0 +1,12 @@
+# cmake output
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+Makefile
+_deps
+
+# Output application
+MusSuite
+
+# User configuration
+.vscode/
