@@ -1,9 +1,10 @@
 #include <cstdint>
 #include <iostream>
+#include <fmt/core.h>
 
 // -------------------------------------------------------------------------- //
 
-static char const sUsageStr[] =
+constexpr char sUsageStr[] =
 R"(
   Usage:
     mussuite [options] <input>
@@ -13,8 +14,8 @@ R"(
 
 // -------------------------------------------------------------------------- //
 
-int main(int32_t argc, char8_t * argv[])
+int main(int argc, char * argv[])
 {
-    std::cout << sUsageStr << std::endl;
+    fmt::print(sUsageStr);
     return argc;
 }
