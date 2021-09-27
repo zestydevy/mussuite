@@ -176,8 +176,8 @@ There are 45 commands in the libmus song format:
   * Disables drums for a channel
   * Length - 1 byte
 * 0xA0 - `Fprint`
- * IGNORED (debug only)
- * Length - 2 bytes
+  * IGNORED (debug only)
+  * Length - 2 bytes
 * 0xA1 - `Fgoto`
 * 0xA2 - `Freverb`
 * 0xA3 - `FrandNote`
